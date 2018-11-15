@@ -32,6 +32,7 @@ Route::resource('create','create');
 
 Route::resource('user','user');
 Route::resource('user','user');
+Route::resource('file','file');
 
 Route::resource('mahasiswa','mahasiswa');
 Route::resource('edit','edit');

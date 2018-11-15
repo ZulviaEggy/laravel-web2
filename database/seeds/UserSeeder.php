@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class User_Seeder extends Seeder
+class UserSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,7 +11,7 @@ class User_Seeder extends Seeder
      */
     public function run()
     {
-       $faker = Faker\Factory::create();//import library faker
+      $faker = Faker\Factory::create();//import library faker
 		
 		$limit = 5;// batasan berapa banyak  data
 		
